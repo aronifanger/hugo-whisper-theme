@@ -48,8 +48,8 @@ summaryLength = 30
     meta_twitter_creator = "@zerostaticio"
 
   [params.logo]
-      mobile = "/images/pd_logo_simples.png"
-      standard  = "/images/pd_logo_simples.png"
+      mobile = "/images/pd_logo_color.jpeg"
+      standard  = "/images/pd_logo_color.jpeg"
 
   [params.footer]
     # copyright_text = 'Free Hugo theme by <a class="zerostatic" href="https://www.zerostatic.io">Zerostatic Themes</a>'

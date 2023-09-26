@@ -3,12 +3,29 @@
     <div class="row">
       <div class="col-12">
         <div class="sub-footer-inner">
+
           {{ if .Site.Data.social }}
             {{ partial "social.html" . }}
           {{ end }}
           {{ with .Site.Params.footer.copyright_text }}
             <div class="copyright">{{ . | safeHTML }}</div>
           {{ end }}
+
+            <a 
+              href="https://github.com/precisiondata/precisiondata.github.io/tree/main/content/{{ replace .File.Path "\\" "/" }}"
+              class="button"
+              target="_blank"
+            >
+              Editar no Github
+            </a>
+
+            <a 
+              href="https://github.dev/precisiondata/precisiondata.github.io/tree/main/content/{{ replace .File.Path "\\" "/" }}"
+              class="button"
+              target="_blank"
+            >
+              Editar no VSCode
+            </a>
         </div>
       </div>
     </div>
